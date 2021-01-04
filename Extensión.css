@@ -1,0 +1,843 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+    font-family: 'Catamaran', sans-serif;
+}
+
+#contenedor {
+	width: 960px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #5d5d5d;	
+}
+
+header {
+	width: 960px;
+	height: 200px;
+	background:-webkit-gradient(radial, 85 57, 28, 202 54, 273, from(#9695A4), to(#30322F))	
+}
+
+#Logo{
+	width: 550px;
+	height: 200px;
+	float: left;
+}
+
+
+#Menu{
+	width: 390px;
+	height: 200px;
+	float: right;
+}
+
+ul, ol {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+	margin-left: 30px;
+}
+   
+.nav > li {
+    float:left;
+    margin-top: 140px;
+    margin-right:5px;    
+}
+   
+.nav li a {
+    background-color: #30322F;
+    padding:10px 12px;
+    width: 70px;
+	height: 18px;	
+	color: #ffffff;
+	display: block;
+	font-size: 1em;
+	text-decoration: none;
+	text-shadow: 3px 3px 3px #000000;
+	font-weight: bold;
+	text-align: center;
+	border:solid 1px #000000;
+	border-top-left-radius:11px;
+	border-top-right-radius:11px;
+	border-bottom-left-radius:11px;
+	border-bottom-right-radius:11px;
+	-webkit-box-shadow: 1px 0px 25px #000000;
+	margin-top: 1px;
+	line-height: 18px;
+	transition: background-color 0.5s;
+}
+
+.nav li a:hover {
+    color: orange;
+	background-color: #9695A4;
+	-webkit-box-shadow: 1px 0px 25px #9695A4;
+}
+   
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:120px;
+}
+   
+.nav li:hover > ul {
+    display:block;
+}
+  
+.nav li ul li {
+    position:relative;
+}
+
+#contenido1 {
+	width: 960px;
+	height: 620px;   
+}
+
+#video {
+	width: 960px;
+	height: 510px;	
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+}
+
+iframe{
+	-webkit-box-shadow: 1px 0px 25px #000000;
+}
+
+.empresa{
+	text-align: justify;
+	margin:20px;
+	margin-top:0px;
+	color: #ffffff;
+	padding: 20px;
+	padding-bottom: 10px;
+	font-style: italic;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+#separadorright{
+	width: 960px;
+	height: 60px;
+	float: right;
+}
+
+#separadorrightt{
+	text-align: right;
+	padding-right: 60px;
+}
+
+#servicios{
+	width: 960px;
+	height: 100px;	
+}
+
+.servicios{
+	text-align: center;
+	font-size: 2em;
+	font-style: italic;
+	color: #ffffff;
+	margin-top: 10px;
+	text-shadow: 3px 3px 3px #333333;
+	font-family: 'Kanit', sans-serif;
+}
+
+#SolucionesLog {
+	width: 480px;
+	height: 400px;
+	float:left;
+	text-align: center;
+}
+
+#SolucionesLog a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+#SolucionesLog a:hover{
+	color: orange;
+	font-size: 1.55em;
+}
+
+#SolucionesInfo {
+	width: 480px;
+	height: 400px;	
+	float:right;
+	text-align: center;
+}
+
+#SolucionesInfo a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+#SolucionesInfo a:hover{
+	color: orange;
+	font-size: 1.55em;
+}
+
+#separadorleft{
+	width: 960px;
+	height: 60px;	
+	clear: both;
+}
+
+#separadorleftt{
+	padding-left: 60px;
+}
+
+footer{
+	width: 960px;
+	height: 180px;
+	background-color: #555555;
+	clear: both;
+}
+
+.contacto{
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 3px 3px 3px #333333;
+	font-family: 'Kanit', sans-serif;
+}
+
+.contactos{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	color: #fff;
+	text-align: center;
+	text-shadow: 3px 3px 3px #333333;	
+}
+
+.contactos li{
+	display: inline;
+	margin-left: 18px;
+}
+
+.contactos li.casa{
+	padding: 10px;
+	padding-left: 33px;
+	background: url(imagenes/casa.jpg) 2px 2px   no-repeat;
+	background-size: 32px;
+}
+
+.contactos li.mail{
+	padding: 10px;
+	padding-left: 33px;
+	background: url(imagenes/mail.jpg) 1px 5.5px  no-repeat;
+	background-size: 32px;	
+}
+
+.contactos li.tel{
+	padding: 10px;
+	padding-left: 33px;
+	background: url(imagenes/tel.jpg) 1px 3px  no-repeat;
+	background-size: 32px;	
+}
+
+#faro{
+	text-align: left;
+	color: #ffffff;
+	float: left;
+	margin-left: 165px;
+	margin-top: 25px;
+	text-shadow: 3px 3px 3px #00b0eb;
+}
+
+
+#datafiscal{
+	text-align: right;
+	margin-right: 40px;
+}
+
+#nosotros{
+	width: 960px;
+	height:700px;
+	background-color: pink;
+	background: url(imagenes/fondonos.jpg)  no-repeat ;
+	background-size: 600px 600px;
+	background-position: center;
+}
+
+figure img{
+	border:solid 1px #000000;
+	border-top-left-radius:15px;
+	border-top-right-radius:14px;
+	border-bottom-left-radius:14px;
+	border-bottom-right-radius:14px;
+	-webkit-box-shadow: 1px 0px 25px #000000;
+}
+
+#nuestrasinstalaciones{
+	color: #ffffff;
+	font-style: italic;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+h4{
+	text-align: justify;
+	margin:20px;
+	margin-top:0px;
+	color: #ffffff;
+	padding: 20px;
+	padding-bottom: 10px;
+	font-style: italic;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+#dptolog{
+	width:960px;
+	height:100px;	
+}
+
+.dptolog{
+	text-align: justify;
+	margin:20px;
+	margin-top:0px;
+	color: #ffffff;
+	padding: 20px;
+	padding-bottom: 10px;
+	font-style: italic;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+#mapalog{
+	width: 520px;
+	height: 480px;	
+	float: left;
+	padding-left: 10px;
+}
+
+#contenidolog{
+	width: 420px;
+	height:480px;	
+	float: right;
+}
+
+.logisticas{
+	color: #ffffff;
+	text-shadow: 3px 3px 3px #333333;
+	list-style-type: none;
+	border-color: black;
+}
+
+.logisticas li{
+	margin-top: 55px;
+	padding-left: 80px;
+	padding-top: 20px;
+	height: 60px;
+}
+
+.logisticas li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+.logisticas li a:hover{
+	color: orange;
+	font-size: 1.55em;
+}
+
+.logisticas li.encomienda{
+	background: url(imagenes/encomienda.jpg) 4px 3px no-repeat ;
+	background-size: 70px;
+}
+
+.logisticas li.distribucion{
+	background: url(imagenes/distribucion.jpg) 4px 3px no-repeat ;
+	background-size: 70px;
+}
+
+.logisticas li.fluvial{
+	background: url(imagenes/fluvial.jpg) 4px 3px no-repeat ;
+	background-size: 70px;
+}
+
+#dptoinfor{
+	width: 960px;
+	height: 120px;
+}
+
+.dptoinfor{
+	text-align: justify;
+	margin:20px;
+	margin-top:0px;
+	color: #ffffff;
+	padding: 20px;
+	padding-bottom: 10px;
+	font-style: italic;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+#catalogo{
+	width: 960px;
+	height: 520px;	
+	float: left;
+}
+
+.prod{
+	text-align: center;
+	margin:0px;
+	margin-top:0px;
+	color: #ffffff;
+	font-size: 2em;	
+	font-style: italic;
+	text-shadow: 3px 3px 3px #333333;
+	font-family: 'Kanit', sans-serif;
+}
+
+table{	
+	width: 960px;
+	height: 500px;
+	text-align: center;
+	padding: 50px;
+}
+
+table td{
+	height: 150px;
+	width: 150px;
+}
+
+table td a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+table a:hover{
+	color: orange;	
+}
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px) {
+
+#contenedor {
+	width: 580px;
+	
+}
+
+header {
+	width: 580px;
+	height: 255px;
+}	
+
+#Logo{
+	width: 580px;	
+	float: none;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#Menu{
+	width: 580px;
+	height: 55px;
+	float: left;	
+}
+
+.nav{
+	margin-left: 145px;
+}
+   
+.nav > li {    
+    margin-top: 5px;
+    margin-right:5px;    
+}
+   
+#contenido1 {
+	width: 580px;
+	height: auto;   
+}
+
+#video {
+	width: 580px;	
+}
+
+iframe{
+	height: 400px;
+	width: 500px;
+}
+
+#servicios{
+	width: 580px;
+	height: auto;
+}
+
+#SolucionesLog {
+	width: 290px;
+	height: auto;
+}
+#SolucionesLog img{
+	height: 45%;
+	width: 57%;	
+}
+#SolucionesLog a{
+	font-size: 110%;
+}
+
+#SolucionesLog a:hover{
+	font-size: 120%;
+}
+
+#SolucionesInfo {
+	width: 290px;
+	height: auto;
+}
+#SolucionesInfo img{
+	height: 45%;
+	width: 57%;
+}
+
+#SolucionesInfo a{
+	font-size: 110%;
+}
+
+#SolucionesInfo a:hover{
+	font-size: 120%;
+}
+
+#separadorleft{
+	width: 580px;	
+	clear: both;
+}
+
+footer{
+	width: 580px;
+	height: auto;	
+}
+
+#faro{
+	margin-left: 70px;	
+}
+
+#datafiscal{	
+	margin-right: 80px;
+}
+
+#nosotros{
+	width: 580px;
+	height: auto;	
+	background: none;
+}
+
+figure img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#dptolog{
+	width:580px;
+	height:auto;
+}
+
+#contenidolog{	
+	height: auto;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+#dptoinfor{
+	width: 580px;
+	height: auto;
+}
+
+#catalogo{
+	width: 580px;
+	height: auto;	
+}
+
+table{	
+	width: 580px;
+	height: auto;
+	padding: 1px;
+}
+
+}
+
+@media handheld, screen and (max-width:599px) {
+
+#contenedor {
+	width: 90%;
+	height: auto;	
+}
+
+header {
+	width: 100%;
+	height: 200px;
+}
+
+#Logo{	
+	height: auto;
+	width: 100%;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Logo img{
+	height:100%; 
+	width:100%;
+}
+
+#Menu{
+	width: 90%;
+	height: auto;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.nav{
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width:100%;
+
+}
+   
+.nav > li {
+    float:left;
+    margin-top: auto;
+    margin-right:5px;    
+}
+.nav li a {
+    background-color: #30322F;
+    padding:5px 12px;
+    width: 65px;
+	height: 18px;	
+	color: #ffffff;
+	display: block;
+	font-size: 1em;
+	text-decoration: none;
+	text-shadow: 3px 3px 3px #000000;
+	font-weight: bold;
+	text-align: center;
+	border:solid 1px #000000;
+	border-top-left-radius:11px;
+	border-top-right-radius:11px;
+	border-bottom-left-radius:11px;
+	border-bottom-right-radius:11px;
+	-webkit-box-shadow: 1px 0px 25px #000000;
+	margin-top: 1px;
+	line-height: 18px;
+	transition: background-color 0.5s;
+}
+   
+#contenido1 {
+	width: 100%;
+	height: auto;  
+	clear: both; 
+}
+
+#video {
+	display: none;
+}
+
+
+#separadorright{
+	width: 100%;
+	height: auto;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#separadorrightt{
+	padding-right: 0px;
+}
+
+#separadorright img{
+	height: 100%;
+	width: 100%;
+}
+
+#servicios{
+	width: 90%;
+	height: auto;
+	float: none;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#SolucionesLog {
+	width: 100%;
+	height: auto;
+	float:auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#SolucionesLog img{
+	height: 50%;
+	width: 50%;
+}
+
+
+#SolucionesInfo {
+	width: 100%;
+	height: auto;
+	float:auto;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#SolucionesInfo img{
+	height: 50%;
+	width: 50%;
+}
+#SolucionesLog a{
+	font-size: 120%;
+}
+#SolucionesInfo a{
+	font-size: 120%;
+}
+
+#SolucionesLog a:hover{
+	font-size: 120%;
+}
+#SolucionesInfo a:hover{
+	font-size: 120%;
+}
+
+#separadorleft{
+	width: 100%;
+	height: auto;
+}
+#separadorleft img{
+	height: 100%;
+	width: 100%;
+}
+
+#separadorleftt{
+	padding-left: 0px;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+}
+
+
+.contactos li{
+	display: block;
+
+}
+
+.contactos li.casa{
+	
+	background: url(imagenes/casa.jpg) 65px 2px   no-repeat;
+	background-size: 32px;
+}
+
+.contactos li.mail{
+	
+	background: url(imagenes/mail.jpg) 90px 5.5px  no-repeat;
+	background-size: 32px;	
+}
+
+.contactos li.tel{
+	
+	background: url(imagenes/tel.jpg) 120px 3px  no-repeat;
+	background-size: 32px;	
+}
+
+#faro{
+	margin-left: 50px;
+}
+#faro p{
+	display: none;
+}
+
+#datafiscal{
+	text-align: right;
+	margin-right: 40px;
+}
+
+#nosotros{
+	width: 100%;
+	height:auto;	
+	background: none ;
+	clear: both;
+	
+}
+
+figure img{
+	display: none;
+}
+
+#nuestrasinstalaciones{
+	display: none;
+}
+
+
+#dptolog{
+	width:100%;
+	height:auto;
+	clear: both;	
+}
+
+
+#mapalog{
+	width: 100%;
+	height: auto;	
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mapalog img{
+	height: 100%;
+	width: 90%;
+
+}
+
+#contenidolog{
+	width: 90%;
+	height:auto;
+}
+
+#dptoinfor{
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+#catalogo{
+	width: 100%;
+	height: auto;	
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table{	
+	width: 100%;
+	height: auto;
+	padding: 1px;
+}
+
+table td{
+	height: auto;
+	width: 100%;
+	padding: 1px;
+
+}
+
+table td a{
+	font-size: 1.1em;
+}
+
+}
+
+
